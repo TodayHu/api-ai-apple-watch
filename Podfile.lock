@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (2.5.2):
+    - AFNetworking/NSURLConnection (= 2.5.2)
+    - AFNetworking/NSURLSession (= 2.5.2)
+    - AFNetworking/Reachability (= 2.5.2)
+    - AFNetworking/Security (= 2.5.2)
+    - AFNetworking/Serialization (= 2.5.2)
+    - AFNetworking/UIKit (= 2.5.2)
+  - AFNetworking/NSURLConnection (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.2):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.2)
+  - AFNetworking/Security (2.5.2)
+  - AFNetworking/Serialization (2.5.2)
+  - AFNetworking/UIKit (2.5.2):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ApiAI (0.0.7):
+    - ApiAI/Default (= 0.0.7)
+    - ApiAI/UIKit (= 0.0.7)
+  - ApiAI/Default (0.0.7):
+    - AFNetworking
+    - CWLSynthesizeSingleton
+  - ApiAI/UIKit (0.0.7):
+    - ApiAI/Default
+  - CWLSynthesizeSingleton (1.0.0)
+
+DEPENDENCIES:
+  - ApiAI
+
+SPEC CHECKSUMS:
+  AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
+  ApiAI: db1faab25e7a9266190a23ab1d3b5d4e5e03f93b
+  CWLSynthesizeSingleton: 6ccef3170409e87bc9e49544efdc1ea7713c2849
+
+COCOAPODS: 0.36.1
