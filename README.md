@@ -2,7 +2,7 @@ Apple Watch helper Demo for apiai.
 ==============
 
 ## <a name="integratingintoyourapp"></a>Integrating into your app
-### 1. See [SDK Reference](https://github.com/api-ai/api-ai-ios-sdk/blob/master/README.md) for apiai initialization.
+### 1. See [apiai SDK Reference](https://github.com/api-ai/api-ai-ios-sdk/blob/master/README.md) for apiai initialization.
 ### 2. In the AppDelegate.m, add
   ```Objective-C
 ...
