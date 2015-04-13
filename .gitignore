@@ -19,6 +19,7 @@ DerivedData
 
 # Mac OS
 .DS_Store
+Podfile.lock
 
 # CocoaPods
 #
