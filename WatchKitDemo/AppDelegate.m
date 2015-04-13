@@ -33,11 +33,8 @@
 - (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void(^)(NSDictionary *replyInfo))reply
 {
     if (![AIWatchKitHandler handleWatchKitRequest:userInfo andReply:reply]) {
-        // you message handler
-        NSLog(@"2");
+        // you code for handle messages from watch
     }
-    
-    NSLog(@"1");
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
