@@ -16,7 +16,7 @@ Apple Watch helper Demo for apiai.
 }
 ...
   ```
-### 3. Configure you Podfile like:
+### 3. Configure you Podfile like this:
   ```Podfile
 ...
 # Pod for Apple Watch Extension target
