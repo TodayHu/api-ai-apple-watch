@@ -16,7 +16,7 @@ Apple Watch helper Demo for apiai.
 }
 ...
   ```
-### 5. Configure you Podfile like
+### 3. Configure you Podfile like:
   ```Podfile
 ...
 # Pod for Apple Watch Extension target
@@ -28,7 +28,7 @@ pod 'ApiAI/WatchKitForPhone'
   ```
 ### 4. In the InterfaceController of WatchKit Extension target add IBAction with following code:
   ```Objective-C
-    ...
+...
 NSArray *suggestions = @[
                          ...
                          // you suggestions for text input
@@ -52,5 +52,5 @@ NSArray *suggestions = @[
                                              }];
                                          }
                                      }];
-    ...
+...
   ```
