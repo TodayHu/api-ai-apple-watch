@@ -9,7 +9,7 @@
 #import "InterfaceController.h"
 
 
-#import <ApiAI/WatchKit/AIWatchKitTextRequest.h>
+#import <ApiAIWatchKit/AIWatchKitTextRequest.h>
 
 @interface InterfaceController()
 

@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import <ApiAI/ApiAI.h>
 #import <ApiAI/AIDefaultConfiguration.h>
-#import <ApiAI/WatchKit/AIWatchKitHandler.h>
+#import <ApiAIWatchKit/AIWatchKitHandler.h>
 
 @interface AppDelegate ()
 

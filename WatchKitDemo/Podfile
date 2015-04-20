@@ -3,8 +3,7 @@
 
 target 'WatchKitDemo' do
 
-pod 'ApiAI/Default', :path => '../'
-pod 'ApiAI/WatchKitForPhone', :path => '../'
+pod 'ApiAIWatchKit/WatchKitForPhone', :path => '../'
 
 end
 
@@ -14,7 +13,7 @@ end
 
 target 'WatchKitDemo WatchKit Extension' do
 
-pod 'ApiAI/WatchKitForWatch', :path => '../'
+pod 'ApiAIWatchKit/WatchKitForWatch', :path => '../'
 
 end
 
