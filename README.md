@@ -6,7 +6,7 @@ Apple Watch helper Demo for apiai.
 ### 2. In the AppDelegate.m, add
   ```Objective-C
 ...
-#import <ApiAI/WatchKit/AIWatchKitHandler.h>
+#import <ApiAIWatchKit/AIWatchKitHandler.h>
 ...
 - (void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void(^)(NSDictionary *replyInfo))reply
 {
@@ -20,10 +20,10 @@ Apple Watch helper Demo for apiai.
   ```Podfile
 ...
 # Pod for Apple Watch Extension target
-pod 'ApiAI/WatchKitForWatch'
+pod 'ApiAIWatchKit/WatchKitForWatch'
 ...
 # Pod for Phone application
-pod 'ApiAI/WatchKitForPhone'
+pod 'ApiAIWatchKit/WatchKitForPhone'
 ...
   ```
 ### 4. In the InterfaceController of WatchKit Extension target add IBAction with following code:
