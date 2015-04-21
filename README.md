@@ -1,4 +1,4 @@
-Apple Watch helper Demo for apiai.
+Apple Watch helper library for Api.ai.
 ==============
 
 ## <a name="integratingintoyourapp"></a>Integrating into your app
